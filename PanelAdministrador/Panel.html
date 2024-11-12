@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Panel de Control</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="button" onclick="goTo('control-panel')">
+            <img src="control-panel.png" alt="Control Panel Icon">
+            <p>Control Panel</p>
+        </div>
+        <div class="button" onclick="goTo('inventory')">
+            <img src="inventory.png" alt="Inventory Icon">
+            <p>Inventory</p>
+        </div>
+        <div class="button" onclick="goTo('tables')">
+            <img src="tables.png" alt="Tables Icon">
+            <p>Tables</p>
+        </div>
+        <div class="button" onclick="goTo('billing')">
+            <img src="billing.png" alt="Billing Icon">
+            <p>Billing</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
